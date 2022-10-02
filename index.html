@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>BookMark</title>
+</head>
+
+<body class="bg-dark">
+    <section>
+        <h1 class="text-white text-center py-4">BookMark (<span class="text-warning">Sites</span>)</h1>
+        <div class="text-white w-50 mx-auto">
+            <label for="" class="fw-bold">WebSite Name :</label>
+            <input type="text" class="form-control " id="nameInput">
+        </div>
+        <div class="text-white w-50 mx-auto py-5">
+            <label for="" class="fw-bold">Url :</label>
+            <input type="text" class="form-control " id="urlInput">
+            <button class="my-5 btn btn-success px-5 py-2 " onclick="addBookMark()" id="addBtn">Add</button>
+        </div>
+    </section>
+    <section class="text-white text-center ">
+        <div class="container ">
+            <div class="row g-md-5 " id="rowInput">
+                <!-- <div class="col-md-4 mb-3">
+                    <div class="bookmarkForm py-3 siteForm">
+                        <h2>Google</h2>
+                        <p class="lead" id="siteUrl">www.google.com</p>
+                        <button class="btn btn-info px-3 "><a target="_blank"
+                                href="http://www.google.com">Visit</a></button>
+                        <button class="btn btn-warning mx-2 px-2">Update</button>
+                        <button class="btn btn-danger px-2">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="/js/all.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

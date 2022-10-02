@@ -1,0 +1,20 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.siteForm {
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.siteForm:hover {
+  box-shadow: 1px 1px 15px 3px #ffc107;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
